@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin:0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.topnav{
+    background-color: rgb(241, 241, 241);
+    overflow: hidden;
+}
+
+.topnav a{
+    float:left;
+   color:rgb(0, 0, 0);
+   text-align: center;
+   padding: 12px 13px;
+   text-decoration: none;
+   font-size:17px;
+}
+.topnav a:hover{
+    color:rgb(134, 134, 134);
+}
+.topnav button{
+    top:1.3%;
+    right:1%;
+    position: absolute;
+}
+.sun{
+    position: absolute;
+    text-align: center;
+    right:1.15%;
+    top:1%;
+    font-size: 23px;
+    cursor: pointer;
+}
+.fa-solid.fa-moon{
+    position: absolute;
+    text-align: center;
+    right:2%;
+    top:1.50%;
+}
+.hidden{
+    display: none;
+}
+.moon{
+    position: absolute;
+    text-align: center;
+    right:1.05%;
+    top:1.50%;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.main{
+    text-align: center;
+    position: absolute;
+    font-size: 22px;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
